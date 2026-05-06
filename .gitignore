@@ -1,0 +1,24 @@
+# PsychoPy intermediate / log artefacts (keep CSV only)
+data/*.psydat
+data/*.log
+
+# Pilot self-tests (not part of formal pilot N)
+data/pilot_*
+
+# Incomplete pilot run (only 8/36 trials)
+data/486166_*
+
+# Compiled Python
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private feedback PDFs (do not push)
+何官臻.pdf
+*_feedback.pdf
+
